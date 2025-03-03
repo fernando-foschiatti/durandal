@@ -1,3 +1,9 @@
+This is a mockup "purchasing application". It was created in order to demonstrate my developing skills in the following areas:
+  - HTML/CSS
+  - Node.js
+  - MySQL and general SQL
+  - Native JavaScript
+
 How to install:
 
 1. Run the scripts at build/data/structure/mysql/<your MySQL version> in the following order:
