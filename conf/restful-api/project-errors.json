@@ -1,0 +1,103 @@
+{
+    "commercialDocuments": {
+        "notFound": {
+            "code": "DURANDAL_COMMERCIAL_DOCUMENTS_NOT_FOUND",
+            "message": "Commercial documents not found.",
+            "description": "The requested commercial documents were not found."
+        },
+        "errorFetching": {
+            "code": "DURANDAL_ERROR_FETCHING_COMMERCIAL_DOCUMENTS",
+            "message": "Error fetching commercial documents.",
+            "description": "An error ocurred while fetching the commercial documents."
+        }
+    },
+    "event": {
+        "exists": {
+            "code": "DURANDAL_EVENT_EXISTS",
+            "message": "The event already exists.",
+            "description": "An event for the provided purchase with the specified date and time already exists."
+        },
+        "errorCreating": {
+            "code": "DURANDAL_ERROR_CREATING_EVENT",
+            "message": "Error creating event.",
+            "description": "An error ocurred while creating the event."
+        },
+        "notFound": {
+            "code": "DURANDAL_EVENT_NOT_FOUND",
+            "message": "Event not found.",
+            "description": "The requested event was not found."
+        }
+    },
+    "events": {
+        "notFound": {
+            "code": "DURANDAL_EVENTS_NOT_FOUND",
+            "message": "Events not found.",
+            "description": "The requested events were not found."
+        },
+        "errorFetching": {
+            "code": "DURANDAL_ERROR_FETCHING_EVENTS",
+            "message": "Error fetching events.",
+            "description": "An error ocurred while fetching the events."
+        }
+    },
+    "payment": {
+        "notFound": {
+            "code": "DURANDAL_PAYMENT_NOT_FOUND",
+            "message": "Payment not found.",
+            "description": "The requested payment was not found."
+        },
+        "errorUpdating": {
+            "code": "DURANDAL_ERROR_UPDATING_PAYMENT",
+            "message": "Error updating payment.",
+            "description": "An error ocurred while updating the payment."
+        }
+    },
+    "payments": {
+        "notFound": {
+            "code": "DURANDAL_PAYMENTS_NOT_FOUND",
+            "message": "Payments not found.",
+            "description": "The requested payments were not found."
+        },
+        "errorFetching": {
+            "code": "DURANDAL_ERROR_FETCHING_PAYMENTS",
+            "message": "Error fetching payments.",
+            "description": "An error ocurred while fetching the payments."
+        }
+    },
+    "purchase": {
+        "errorFetching": {
+            "code": "DURANDAL_ERROR_FETCHING_PURCHASE",
+            "message": "Error fetching purchase.",
+            "description": "An error ocurred while fetching the purchase."
+        },
+        "notFound": {
+            "code": "DURANDAL_PURCHASE_NOT_FOUND",
+            "message": "Purchase not found.",
+            "description": "The requested purchase was not found."
+        }
+    },
+    "purchases": {
+        "notFound": {
+            "code": "DURANDAL_PURCHASES_NOT_FOUND",
+            "message": "Purchases not found.",
+            "description": "The requested purchases were not found."
+        },
+        "errorFetching": {
+            "code": "DURANDAL_ERROR_FETCHING_PURCHASES",
+            "message": "Error fetching purchases.",
+            "description": "An error ocurred while fetching the purchases."
+        }
+    },
+    "users": {
+        "notFound": {
+            "code": "DURANDAL_USERS_NOT_FOUND",
+            "message": "Users not found.",
+            "description": "The requested users were not found."
+        },
+        "errorFetching": {
+            "code": "DURANDAL_ERROR_FETCHING_USERS",
+            "message": "Error fetching users.",
+            "description": "An error ocurred while fetching the users."
+        }
+    }
+}

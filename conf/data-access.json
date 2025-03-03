@@ -1,0 +1,9 @@
+{
+    "Type": "MySQL",
+    "Details": {
+        "Server host": "localhost",
+        "User name": "vixenworks_durandal_dev_user",
+        "Password": "vixenworks_durandal_dev_user",
+        "Database name": "vixenworks_durandal_dev"
+    }
+}

@@ -1,0 +1,54 @@
+.vixenworks-summary > .title {
+    background-color: #000000;
+    color: #ffffff;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.vixenworks-summary > .title + .summary {
+    margin-top: 5px;
+}
+
+.vixenworks-summary > .summary {
+    margin-bottom: 5px;
+}
+
+.vixenworks-summary > .summary:last-child {
+    margin-bottom: 0;
+}
+
+.vixenworks-summary > .summary > .summary {
+    background-color: #394876;
+    border: 1px solid;
+}
+
+.vixenworks-summary > .summary > .summary > .details-toggle {
+    float: left;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+.vixenworks-summary > .summary > .summary > .elements {
+    height: 24px;
+    margin-left: 24px;
+}
+
+.vixenworks-summary > .summary > .summary > .elements > div {
+    color: #ffffff;
+    line-height: 24px;
+}
+
+.vixenworks-summary > .summary > .details {
+    background-color: #cacad3;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    display: none;
+    padding: 5px;
+}
+
+.vixenworks-summary > .summary > .details.visible {
+    display: block;
+}

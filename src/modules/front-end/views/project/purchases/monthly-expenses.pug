@@ -1,0 +1,7 @@
+extends ../../vixenworks/template
+
+block scripts
+    if showAvailablePeriods
+        script project.purchases.showMonthlyExpensesAvailablePeriods();
+    else
+        script project.purchases.showMonthlyExpenses({ year: #{year}, month: #{month + 1} });

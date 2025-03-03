@@ -1,0 +1,185 @@
+.vixenworks-form {
+    background-color: red;
+}
+
+.vixenworks-form .title {
+    background-color:cadetblue;
+    line-height: 24px;
+    text-align: center;
+}
+
+.vixenworks-form .content {
+    background-color:bisque;
+    padding: 5px;
+}
+
+.vixenworks-form .field {
+    background-color: green;
+    margin-bottom: 5px;
+}
+
+.vixenworks-form .date-and-time {
+    height: 24px;
+}
+
+.vixenworks-form .drop-down-options {
+    height: 24px;
+}
+
+.vixenworks-form .free-form-text {
+    height: 120px;
+}
+
+.vixenworks-form .horizontal-options {
+    height: 24px;
+}
+
+.vixenworks-form .number {
+    height: 24px;
+}
+
+.vixenworks-form .password {
+    height: 24px;
+}
+
+.vixenworks-form .text {
+    height: 24px;
+}
+
+.vixenworks-form .label {
+    background-color:azure;
+    float: left;
+    width: 200px;
+    line-height: 24px;
+    padding-left: 5px;
+}
+
+.vixenworks-form .interactive {
+    background-color:cornflowerblue;
+    margin-left: 210px;
+    height: 100%;
+}
+
+.vixenworks-form .date-and-time input {
+    border: 0;
+    outline: 0;
+    padding: 0;
+    font-size: 14px;
+    height: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.vixenworks-form .drop-down-options select {
+    border: 0;
+    outline: 0;
+    font-size: 14px;
+    font-family: 'Red Hat Display', sans-serif;
+    height: 24px;
+}
+
+.vixenworks-form .drop-down-options option {
+    padding: 0;
+}
+
+.vixenworks-form .horizontal-options .option {
+    background-color:antiquewhite;
+    float: left;
+    line-height: 22px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    user-select: none;
+    cursor: pointer;
+}
+
+.vixenworks-form .horizontal-options .option:first-child {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.vixenworks-form .horizontal-options .option:last-child {
+    border-right: 1px solid black;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.vixenworks-form .horizontal-options:not(.multiple) .selected {
+    cursor:default;
+}
+
+.vixenworks-form .horizontal-options .option:not(.selected):hover {
+    background-color:gold;
+}
+
+.vixenworks-form .horizontal-options .selected {
+    background-color:goldenrod;
+}
+
+.vixenworks-form .number input {
+    border: 0;
+    outline: 0;
+    padding: 0;
+    font-size: 14px;
+    height: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.vixenworks-form .password input {
+    border: 0;
+    outline: 0;
+    padding: 0;
+    font-size: 14px;
+    height: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.vixenworks-form .text input {
+    border: 0;
+    outline: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    height: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.vixenworks-form .free-form-text textarea {
+    border: 0;
+    outline: 0;
+    padding: 0;
+    resize: none;
+    font-size: 14px;
+    font-family: 'Red Hat Display', sans-serif;
+    height: 100%;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+.vixenworks-form .ok-cancel {
+    background-color: orange;
+    height: 24px;
+}
+
+.vixenworks-form .ok, .vixenworks-form .cancel {
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 24px;
+    float: right;
+}
+
+.vixenworks-form .cancel {
+    margin-left: 5px;
+}

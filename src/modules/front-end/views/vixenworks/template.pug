@@ -1,0 +1,26 @@
+doctype html
+html(lang='es')
+    head
+        meta(charset='UTF-8')
+        link(href=`${basePath}favicon.ico` rel='icon')
+        title= title
+        each vixenworksCss in required.css.vixenworks.concat(css ? css.vixenworks || [] : [])
+            link(href=`${basePath}css/vixenworks/${vixenworksCss}.css` rel='stylesheet')
+        each projectCss in required.css.project.concat(css ? css.project || [] : [])
+            link(href=`${basePath}css/project/${projectCss}.css` rel='stylesheet')
+    body
+        - const javascripts = { project: required.js.project.concat(js ? js.project || [] : []), vixenworks: required.js.vixenworks.concat(js ? js.vixenworks || [] : []) };
+        - if (javascripts.vixenworks.length !== 0) javascripts.vixenworks.unshift('vixenworks');
+        each vixenworksJs in javascripts.vixenworks
+            if vixenworksJs !== 'base'
+                script(src=`${basePath}js/vixenworks/${vixenworksJs}.js`)
+            else
+                script(src=`${basePath}js/vixenworks/base.js` basepath= basePath restfulapiurl= restfulApiUrl)
+        if javascripts.project.length !== 0
+            script(src=`${basePath}js/vixenworks/project.js`)
+            each projectJs in javascripts.project
+                script(src=`${basePath}js/project/${projectJs}.js`)
+        if user
+            include ../project/menu
+            include user-panel
+        block scripts

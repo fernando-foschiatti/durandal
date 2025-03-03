@@ -1,0 +1,5 @@
+{
+    "Base path": "/durandal/",
+    "Session secret": "af324ad8ede92e13426f08ede2e857a23c185ad6c5129bc187b4354a5384f6daba3eb5a18994715108fcace85af7e035a288dfb4e196497cdf0ba4e35139f673",
+    "RESTful API URL": "https://localhost:55294/api/"
+}

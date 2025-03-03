@@ -1,0 +1,29 @@
+{
+    "notFound": {
+        "code": "VIXENWORKS_NOT_FOUND",
+        "message": "Not found.",
+        "description": "The requested resource was not found."
+    },
+    "unexpected": {
+        "code": "VIXENWORKS_UNEXPECTED_ERROR",
+        "message": "Unexpected error.",
+        "description": "An unexpected error has ocurred."
+    },
+    "unauthorized" : {
+        "code": "VIXENWORKS_UNAUTHORIZED",
+        "message": "Unauthorized.",
+        "description": "Unauthorized."
+    },
+    "user": {
+        "errorLoggingIn": {
+            "code": "VIXENWORKS_USER_ERROR_LOGGING_IN",
+            "message": "Error logging in the user.",
+            "description": "An error ocurred while logging in the user."
+        }
+    },
+    "wrongParameters": {
+        "code": "VIXENWORKS_WRONG_PARAMETERS",
+        "message": "Wrong parameters.",
+        "description": "The provided parameters were wrong."
+    }
+}

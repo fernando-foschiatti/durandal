@@ -1,0 +1,222 @@
+/* Fonts */
+/* -- Sans-serif */
+/* ---- Red Hat Display */
+/* ------ Regular */
+@font-face {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./../../font/vixenworks/RedHatDisplay-Regular.ttf') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ------ Italic */
+@font-face {
+    font-family: 'Red Hat Display';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./../../font/vixenworks/RedHatDisplay-Italic.ttf') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ------ Bold */
+@font-face {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('./../../font/vixenworks/RedHatDisplay-Bold.ttf') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ------ Bold italic */
+@font-face {
+    font-family: 'Red Hat Display';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url('./../../font/vixenworks/RedHatDisplay-BoldItalic.ttf') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* -- Monospaced */
+/* ---- Azeret mono */
+/* ------ Regular */
+@font-face {
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url('./../../font/vixenworks/AzeretMono-ExtraLight.ttf') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ------ Italic */
+@font-face {
+    font-family: 'Azeret Mono';
+    font-style: italic;
+    font-weight: 200;
+    font-display: swap;
+    src: url('./../../font/vixenworks/AzeretMono-ExtraLightItalic.ttf') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ------Bold */
+@font-face {
+    font-family: 'Azeret Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('./../../font/vixenworks/AzeretMono-Bold.ttf') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ------ Bold italic */
+@font-face {
+    font-family: 'Azeret Mono';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url('./../../font/vixenworks/AzeretMono-BoldItalic.ttf') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    font-size: 14px;
+}
+
+/* General purpose */
+.vixenworks-button {
+    background-color:#999999;
+    color: #ffffff;
+    cursor: pointer;
+    user-select: none;
+}
+
+.vixenworks-button:hover {
+    background-color: #000000;
+}
+
+.vixenworks-centered {
+    text-align: center;
+}
+
+.vixenworks-highlighted {
+    font-weight: bold;
+}
+
+.vixenworks-monospaced {
+    font-family: 'Azeret Mono', monospace;
+}
+
+.vixenworks-right-aligned {
+    text-align: right;
+}
+
+/* Menu */
+.vixenworks-menu .category {
+    background-color: #f4c57c;
+    border-right: 1px solid;
+    float: left;
+    line-height: 34px;
+    padding-left: 15px;
+    padding-right: 15px;
+    user-select: none;
+}
+
+.vixenworks-menu .category:first-child {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.vixenworks-menu .category:first-child img {
+    float: left;
+    padding: 5px;
+}
+
+.vixenworks-menu .category:last-child {
+    border-right: 0;
+}
+
+.vixenworks-menu .category .items {
+    background-color: #eca13c;
+    display: none;
+    margin-left: -15px;
+    position: absolute;
+    z-index: 9;
+}
+
+.vixenworks-menu .category .items .item {
+    line-height: 24px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.vixenworks-menu .category .items .item a:hover {
+    text-decoration: underline;
+}
+
+.vixenworks-menu .category:hover .items {
+    display: block;
+}
+
+/* User panel */
+.vixenworks-user-panel {
+    float: right;
+    height: 40px;
+    user-select: none;
+}
+
+.vixenworks-user-panel h1 {
+    background-color: #a5d5a0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 10px;
+}
+.vixenworks-user-panel h1:hover ul {
+    display: block;
+}
+
+.vixenworks-user-panel ul {
+    background-color: #87ad82;
+    display: none;
+    list-style-type: none;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+.vixenworks-user-panel ul li {
+    line-height: 20px;
+}
+
+.vixenworks-user-panel ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Main */
+.vixenworks-main {
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 55px;
+}
+
+/* Error */
+.vixenworks-error p {
+    background-color: #af3d45;
+    border-radius: 4px;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+}

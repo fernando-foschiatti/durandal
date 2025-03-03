@@ -1,0 +1,56 @@
+.vixenworks-tabs > .title {
+    background-color: #000000;
+    color: #ffffff;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.vixenworks-tabs > .tabs {
+    border-bottom: 1px solid;
+    height: 43px;
+}
+
+.vixenworks-tabs > .tabs > .tab {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    float: left;
+    line-height: 42px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    user-select: none;
+}
+
+.vixenworks-tabs > .tabs > .tab:first-child {
+    margin-left: 0;
+}
+
+.vixenworks-tabs > .tabs > .tab:not(.selected) {
+    cursor: pointer;
+}
+
+.vixenworks-tabs > .tabs > .tab.selected {
+    border-bottom-color: #ffffff;
+}
+
+.vixenworks-tabs > .contents {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.vixenworks-tabs > .contents > .content {
+    display: none;
+    padding: 5px;
+}
+
+.vixenworks-tabs > .contents > .content.selected {
+    display: block;
+}

@@ -1,0 +1,7 @@
+extends ../vixenworks/template
+
+block scripts
+    if showAvailablePeriods
+        script project.accounting.showInputVatAvailablePeriods();
+    else
+        script project.accounting.showInputVat({ year: #{year}, month: #{month + 1} });

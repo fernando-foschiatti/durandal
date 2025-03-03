@@ -1,0 +1,48 @@
+/* Available periods */
+.vixenworks-summary.available-periods .year {
+    margin-left: 5px;
+}
+
+.vixenworks-summary.available-periods .months {
+    margin-left: 24px;
+}
+
+.vixenworks-summary.available-periods .month {
+    line-height: 24px;
+}
+
+.vixenworks-summary.available-periods a:hover {
+    text-decoration: underline;
+}
+
+/* Purchases by supplier */
+.vixenworks-summary.purchases-by-supplier .supplier-name {
+    float: left;
+    margin-left: 5px;
+}
+
+.vixenworks-summary.purchases-by-supplier .supplier-amount {
+    float: right;
+    margin-right: 10px;
+}
+
+.vixenworks-summary.purchases-by-supplier .purchase {
+    height: 24px;
+}
+
+.vixenworks-summary.purchases-by-supplier .purchase:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.vixenworks-summary.purchases-by-supplier .name {
+    float: left;
+    line-height: 24px;
+    margin-left: 24px;
+}
+
+.vixenworks-summary.purchases-by-supplier .amount {
+    float: right;
+    line-height: 24px;
+    margin-right: 5px;
+}

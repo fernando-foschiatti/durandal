@@ -1,0 +1,9 @@
+{
+    "CSS": {
+        "Vixenworks": [ "reset", "style" ],
+        "Project": [ "style", "instance" ]
+    },
+    "JavaScript": {
+        "Vixenworks": [ "base" ]
+    }
+}

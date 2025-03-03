@@ -1,0 +1,4 @@
+extends ../../vixenworks/template
+
+block scripts
+    script project.purchase.details.showByNumber(#{number}, #{user.permissions.includes('Escribir compras')});

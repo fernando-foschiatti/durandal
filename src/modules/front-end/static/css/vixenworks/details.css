@@ -1,0 +1,73 @@
+.vixenworks-details > .topLeft {
+    border: 1px solid;
+    float: left;
+    width: 225px;
+}
+
+.vixenworks-details > .topLeft > .row-1 {
+    border-bottom: 1px solid;
+    height: 72px;
+}
+
+.vixenworks-details > .topLeft > .row-2 {
+    border-bottom: 1px solid;
+    line-height: 30px;
+    text-align: center;
+}
+
+.vixenworks-details > .topLeft > .row-3 {
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.vixenworks-details > .topLeft > .row-3.empty {
+    background-color: #000000;
+}
+
+.vixenworks-details > .topRight {
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-top: 1px solid;
+}
+
+.vixenworks-details > .topRight > .row-1 {
+    border-bottom: 1px solid;
+    height: 42px;
+    line-height: 42px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.vixenworks-details > .topRight > .row-2 {
+    border-bottom: 1px solid;
+    height: 42px;
+    line-height: 42px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.vixenworks-details > .topRight > .row-3 {
+    height: 42px;
+}
+
+.vixenworks-details > .topRight > .row-3 > .left {
+    height: 42px;
+    line-height: 42px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.vixenworks-details > .topRight > .row-3 > .right {
+    border-left: 1px solid #000000;
+    float: right;
+    line-height: 42px;
+    text-align: center;
+}
+
+.vixenworks-details > .bottom {
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding: 5px;
+}

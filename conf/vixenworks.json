@@ -1,0 +1,6 @@
+{
+    "User authentication": {
+        "Login minimum length": 8,
+        "Password minimum length": 8
+    }
+}

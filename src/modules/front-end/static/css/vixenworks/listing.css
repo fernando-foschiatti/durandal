@@ -1,0 +1,98 @@
+.vixenworks-listing > .header {
+    height: 32px;
+    margin-bottom: 5px;
+}
+
+.vixenworks-listing > .header .title {
+    background-color: #000000;
+    color: #ffffff;
+    float: left;
+    line-height: 32px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.vixenworks-listing > .header .actions {
+    float: right;
+    height: 100%;
+}
+
+.vixenworks-listing > .header .actions img {
+    margin-left: 5px;
+}
+
+.vixenworks-listing > .header .actions img:first-child {
+    margin-left: 0;
+}
+
+.vixenworks-listing table {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.vixenworks-listing thead tr {
+    background-color: #394876;
+    border-bottom: 1px solid #000000;
+    color: #ffffff;
+}
+
+.vixenworks-listing th {
+    font-weight: normal;
+}
+
+.vixenworks-listing th, .vixenworks-listing td {
+    border-right: 1px solid #000000;
+    height: 24px;
+    padding-bottom: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 0;
+}
+
+.vixenworks-listing tr {
+    background-color: #ffffff;
+}
+
+.vixenworks-listing tr.zebra {
+    background-color: #eeeeee;
+}
+
+.vixenworks-listing tfoot tr {
+    border-top: 1px solid;
+    font-weight: bold;
+}
+
+.vixenworks-listing tfoot tr {
+    background-color: #cacad3;
+}
+
+.vixenworks-listing tbody tr:hover, .vixenworks-listing tbody tr:hover a {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.vixenworks-listing td .vixenworks-button:hover {
+    background-color: #606060;
+}
+
+/* Icon */
+.vixenworks-listing td.icon img {
+    position: relative;
+    top: 2px;
+}
+
+/* Users */
+.vixenworks-listing td.users div {
+    border-radius: 3px;
+    float: left;
+    line-height: 18px;
+    margin-right: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    user-select: none;
+}
+
+.vixenworks-listing td.users div:last-child {
+    margin-right: 0;
+}

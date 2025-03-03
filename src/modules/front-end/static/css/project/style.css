@@ -1,0 +1,159 @@
+/* Accounting */
+/* -- Input VAT */
+/* ---- Available periods */
+.input-vat.available-periods {
+    margin-left: 37.5%;
+    width: 25%;
+}
+
+/* Purchases */
+/* -- Status */
+.purchase .status-awaiting-estimate {
+    background-color: #e7e6b0;
+    color: #000000;
+}
+
+.purchase .status-cancelled {
+    background-color: #d69f9f;
+    color: #000000;
+}
+
+.purchase .status-confirmed {
+    background-color: #a1d69f;
+    color: #000000;
+}
+
+.purchase .status-estimate-received {
+    background-color: #9fc9d6;
+    color: #000000;
+}
+
+.purchase .status-finalized {
+    background-color: #d3d3d3;
+    color: #000000;
+}
+
+.purchase .status-in-transit {
+    background-color: #cd9fd6;
+    color: #000000;
+}
+
+.purchase .status-not-started {
+    background-color: #555555;
+    color: #ffffff;
+}
+
+/* -- Details */
+.vixenworks-details.purchase > .topLeft > .row-2, .vixenworks-details.purchase > .topRight > .row-1, .vixenworks-details.purchase > .topRight > .row-3 > .left {
+    background-color: #2db198;
+    font-weight: bold;
+}
+
+.vixenworks-details.purchase > .bottom {
+    background-color: #2db198;
+}
+
+.vixenworks-details.purchase > .topRight > .row-3 > .right {
+    width: 145px;
+}
+
+/* ---- Balance */
+.vixenworks-summary.purchase-balance .elements div {
+    border-right: 1px solid #000000;
+    box-sizing: border-box;
+    float: left;
+}
+
+.vixenworks-summary.purchase-balance .date {
+    padding-right: 3px;
+    width: 11%;
+}
+
+.vixenworks-summary.purchase-balance .operation {
+    width: 18%;
+}
+
+.vixenworks-summary.purchase-balance .file {
+    height: 24px;
+    text-align: center;
+    width: 3%;
+}
+
+.vixenworks-summary.purchase-balance .file img {
+    position: relative;
+    top: 3px;
+}
+
+.vixenworks-summary.purchase-balance .categories {
+    height: 24px;
+    width: 28%;
+}
+
+.vixenworks-summary.purchase-balance .categories div {
+    background-color: #000000;
+    color: #ffffff;
+    float: left;
+    line-height: 18px;
+    margin-left: 3px;
+    margin-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    user-select: none;
+}
+
+.vixenworks-summary.purchase-balance .total-or-amount {
+    padding-right: 3px;
+    text-align: right;
+    width: 20%;
+}
+
+.vixenworks-summary.purchase-balance .elements .balance {
+    border-right: 20px;
+    padding-right: 3px;
+    text-align: right;
+    width: 20%;
+}
+
+/* ---- Events */
+/* ------ Files */
+.vixenworks-details.purchase .files div {
+    border-radius: 3px;
+    float: left;
+    line-height: 18px;
+    margin-right: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.vixenworks-details.purchase .files a:last-child div {
+    margin-right: 0;
+}
+
+/* ------ Status */
+.vixenworks-details.purchase .status div {
+    border-radius: 3px;
+    line-height: 18px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: center;
+    user-select: none;
+}
+
+/* -- Monthly expenses */
+/* ---- Available periods */
+.purchases-monthly-expenses.available-periods {
+    margin-left: 32.5%;
+    width: 35%;
+}
+
+/* Purchases by supplier */
+.purchases-monthly-expenses.purchases-by-supplier {
+    margin-left: 20%;
+    width: 60%;
+}
+
+/* -- With outanding balance */
+.purchases-with-outstanding-balance {
+    margin-left: 25%;
+    width: 50%;
+}

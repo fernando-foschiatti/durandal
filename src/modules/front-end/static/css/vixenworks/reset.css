@@ -1,0 +1,15 @@
+a {
+    text-decoration: none;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+body, h1, p, ul {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
