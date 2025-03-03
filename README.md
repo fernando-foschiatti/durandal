@@ -21,6 +21,6 @@ How to run:
 - From the console run "node src/index.js".
 - Browse "https://localhost/durandal" (you will get an "invalid certificate" message which you can safely ignore).
 - You can now login using any of the following user/password combinations:
-    - usuarioad/usuarioad.
+    - usuarioad/usuarioad (has all permissions).
     - usuariopr/usuariopr.
     - usuariote/usuariote.
