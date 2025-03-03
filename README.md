@@ -14,7 +14,7 @@ How to install:
 
 2. Run the following script: build/data/seed/mysql.sql
 
-3. Copy all of the files at build/files/seed to res/files/project
+3. Create the res/files/project folder then copy all of the files at build/files/seed to res/files/project
 
 4. Check the following configuration files (conf folder):
     - restful-api/conf and front-end/conf: make sure the specified port is not being used (default 55294).
