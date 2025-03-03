@@ -12,7 +12,7 @@ How to install:
 
 4. Check the following configuration files (conf folder):
     - restful-api/conf and front-end/conf: make sure the specified port is not being used (default 55294).
-    - data-access.json: if your MySQL instance is running at a non-default port (3306) specify it by using the "Port": 12345 option. Make sure the "Serve host" option is correct.
+    - data-access.json: if your MySQL instance is running at a non-default port (3306) specify it by using the "Port": 12345 option. Make sure the "Server host" option is correct.
 
 5. Run npm install to install all packages.
 
