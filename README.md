@@ -1,8 +1,9 @@
 This is a mockup "purchasing application". It was created in order to demonstrate my developing skills in the following areas:
-  - HTML/CSS
+  - RESTful architecture
   - Node.js
   - MySQL and general SQL
   - Native JavaScript
+  - HTML/CSS
 
 How to install:
 
