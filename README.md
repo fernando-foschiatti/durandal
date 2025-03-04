@@ -7,7 +7,7 @@ This is a mockup "purchasing application". It was created in order to demonstrat
 
 How to install:
 
-1. Run the scripts at build/data/structure/mysql/<your MySQL version> in the following order:
+1. Run the scripts at build/data/structure/mysql/&lt;your MySQL version&gt; in the following order:
     - database.sql
     - vixenworks.sql
     - project.sql
